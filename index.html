@@ -5,60 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/sytle.css">
-    <title>Mi primer proyecto-Box Modeling</title>
+    <script src="https://kit.fontawesome.com/bff4e5c526.js" crossorigin="anonymous"></script>
+    <!-- ANIMATE.STYLE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- WOW.js -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jugos la Esperanza</title>
 </head>
 
-
 <body>
-    <header>
-        <h1>Jugos La Esperanza</h1>
+    <div class="grilla">
         <!-- menu de navegacion:... -->
-        <nav>
+        <nav class="nav">
+            <img src="https://spng.pngfind.com/pngs/s/581-5817393_naranja-animada-png-dibujo-de-una-naranja-a.png"
+                alt="fruta de naranja entera y otra cortada a la mitad" class="logoDesktop">
             <!-- unordered list: lista no ordenada -->
-            <ol>
+            <ul>
                 <!-- List Items -->
                 <li><a href="./index.html">INICIO</a></li>
                 <li><a href="./logistica-y-distribucion.html">LOGÍSTICA Y DISTRIBUCIÓN</a></li>
                 <li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
                 <li><a href="./nuestros-jugos.html">NUESTROS JUGOS</a></li>
                 <!-- ordered list: lista ordenada (ol) -->
                 <ul>
-                    <li class="inline" >NARANJA</li>
+                    <li class="inline">NARANJA</li>
                     <li class="inline">POMELO ROSADO</li>
                     <li class="inline">LIMÓN</li>
                     <li class="inline">MANZANA</li>
                     <li class="inline">FRUTILLA</li>
                 </ul>
-                </li>
                 <!-- <li>etiqueta A = Anchor / href: hipervinculo de referencia -->
-                <li><a href="./contacto.html">CONTACTO</a></li>
-
-            </ol>
+            </ul>
         </nav>
-    </header>
-    <!-- MAIN: Contenido principal -->
-    <main>
-        <br><br>
-        <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2020/01/jugo-de-naranja.jpg"
-        alt="Jugo exprimido de naranja"><br>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJOAZuIOR9OaYuz9rj3HvPDGPOYRzNLm-s7oG8AeH7VDsx9JNRYduIqMQeyt3McGqfQw&usqp=CAU" 
-        alt="jugo exprimido de pomelo rosado">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5zcq0VKM8ESxpFAKHvHPBvd__95x5dPg3HtePxE09XEsukNnApIq6GTsJSXIwAF-B0&usqp=CAU" 
-        alt="jugo de frutilla">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyoivpKn4QJG_lZs50hQwny__-Hz9EQNtP5g&usqp=CAU" 
-        alt="jugo de limon">
+        <header class="header">
+            <h1>Jugos La Esperanza</h1>
+            <p>Nuestros jugos naturales son vendidos en todo el territorio argentino. <br>
+                ¿Querés revender nuestros Jugos? <br>
+                Informate qué necesitas para que llegue a tu comercio</p>
+        </header>
 
 
-    </main>
-    <!-- FOOTER: pie de pagina-->
-    <footer class="footer">
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-        </ul>
+        <section class="primeraSeccion">
+            <h2 class="animate__animated animate__bounceInLeft wow">Nuestros comienzos, allá por 1982</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod et quis ab ea fugiat voluptate repudiandae, sequi corporis harum id nemo animi architecto rem eaque quas ipsum temporibus aperiam aspernatur laborum perspiciatis aut accusantium! Officia, quaerat! Ut et delectus, repudiandae quasi cupiditate consectetur possimus, distinctio qui minima numquam ad at ipsa culpa ab molestias facere.<br> <br>
+                Podes conocer nuestra historia completa visitando el sitio web de Marcas Argentinas, una pagina que
+                recorre los comienzos y las historias de nuestras impresionantes industrias nacionales</p>
+            <div>
+                <button>Marcas Argentinas</button>
+            </div>
+        </section>
 
-    </footer>
+        <section class="segundaSeccion">
+            <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2020/01/jugo-de-naranja.jpg"
+                alt="Jugo exprimido de naranja">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJOAZuIOR9OaYuz9rj3HvPDGPOYRzNLm-s7oG8AeH7VDsx9JNRYduIqMQeyt3McGqfQw&usqp=CAU"
+                alt="jugo exprimido de pomelo rosado">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5zcq0VKM8ESxpFAKHvHPBvd__95x5dPg3HtePxE09XEsukNnApIq6GTsJSXIwAF-B0&usqp=CAU"
+                alt="jugo de frutilla">
+        </section>
 
-    <body />
+        <aside class="aside">
+            <h3 class="asideh3">Mirá los espectaculares <br> tragos que podes hacer <br> con nuestros jugos</h3>
+            <ul>
+                <li><a href="#">Tragos en familia</a> </li>
+                <li><a href="#">Noche con amigos</a></li>
+                <li><a href="#">Barman profesional</a></li>
+            </ul>
+        </aside>
+
+        <!-- FOOTER: pie de pagina-->
+        <footer class="footer">
+            <div>
+
+                <i class="fa-brands fa-whatsapp-square"></i>
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+
+            </div>
+
+        </footer>
+
+    </div>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>

@@ -42,7 +42,6 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     /* se puede poner una cantidad de veces especifica para que se repita, tan solo con numeros */
-
 }
 
 .nav li:hover {
@@ -119,6 +118,8 @@
     grid-area: segundaSeccion;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .segundaSeccion h3 {
@@ -134,8 +135,10 @@
 
 .segundaSeccion img {
     max-width: 350px;
+    margin-top: 1rem;
     /* rotate-->transform: rotate(45deg); rotateX, rotateY y rotateZ */
 }
+
 
 .segundaSeccion p {
     max-width: 350px;
@@ -215,7 +218,7 @@
 /* ANIMACIONES */
 @keyframes cambioColor{
     0%{
-        background-color: #d43f12;
+        background-color: #e47756;
     }
     25%{
         background-color: #e9d45d;
